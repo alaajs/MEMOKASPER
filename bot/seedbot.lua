@@ -232,12 +232,12 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
-    moderation = {data = 'data/moderation.json'},
+    sudo_users = {360337984,0,tonumber(our_id)},--Sudo users
+    moderation = {data = 'data/moderation.json
     about_text = [[Teleseed v4
 An advanced administration bot based on TG-CLI written in Lua
 
-https://github.com/Joker-development/Joker_development
+https://github.com/alioshii/KASBAR
 Admins
 @iwals [Founder]
 @imandaneshi [Developer]
@@ -648,8 +648,7 @@ function load_plugins()
 
     if not ok then
       print('\27[31mError loading plugin '..v..'\27[39m')
-	  print(tostring(io.popen("lua plugins/"..v..".lua"):read('*all')))
-      print('\27[31m'..err..'\27[39m')
+	 
     end
 
   end
