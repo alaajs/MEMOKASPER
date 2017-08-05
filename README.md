@@ -13,6 +13,7 @@ sudo apt-get update
 ورهأَ خلي 👇🏿 And vinegary
 
 redis-server
+
 تركه مفتوح✋🏿  Leave it open Terminal
 
 وفتح ترمنال ثاني وخلي 👇🏿 Open Terminal and second vinegary
@@ -21,11 +22,11 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ************************************************************
 ورأهأَ خلي👇🏿
 **************
-git clone https://github.com/alioshii/KASBAR.git
+git clone https://github.com/alaajs/MEMOKASPER.git
 *****************************************************
 ورهأ خلي 👇🏿 And vinegary
 **************************
-cd KASBAR
+cd MEMOKASPER
 **************************
 ورهأَ خلي👇🏿 And vinegary
 **************************
@@ -63,7 +64,7 @@ redis-server
 وفتح ترمنال ثاني وخلي 👇🏿 Open Terminal and second vinegary
 ```sh
 
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/alioshii/KASBAR.git && cd KASBAR && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/alaajs/MEMOKASPER.git && cd MEMOKASPER && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 
 * * *
@@ -81,16 +82,8 @@ Open ./data/config.lua and add your ID to the "sudo_users" section in the follow
 ✋🏿 لتصبح مطور بوتك غير الايدي خاص كونفج بايديك 👇🏿
 ```
   sudo_users = {
-    190385827,
+    266714448,
     0,
     YourID
   }
 ```
-😘 مـبروَك أصبَحتـَ مـطورَ بوـتكَ لتوأصل معي 
-
-#Dev : [@fuck_8_you](https://telegram.me/fuck_8_you)
-#Dev_BOT :  [@devss_bot](https://telegram.me/devss_bot)
-#Dev_Channel :  [@help_telp](https://telegram.me/help_telp)
-
-عندكَ فكره تطوير السورس او البوت تفظل هنأَ☝🏿️
-You have an idea to develop Alsoors or bot prefer ☝🏿️✋🏿
